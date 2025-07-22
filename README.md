@@ -31,7 +31,7 @@ Este guia irá demonstrar o passo a passo para criar uma instância gratuita do 
 
 Acesse o site [Neo4j.com](https://neo4j.com/) e clique em um dos botões de início, como "Get Started Free" ou "Start Building", para começar o processo.
 
-![Página inicial do Neo4j](petcare/imagens/1.jpg)
+![Página inicial do Neo4j](imagens/1.jpg)
 
 ## Passo 2: Inicie o Cadastro na Plataforma Aura
 
