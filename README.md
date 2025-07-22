@@ -129,11 +129,14 @@ Certifique-se que você se encontra no diretorio correto, e, execute o seguinte 
 
 Com o projeto ainda rodando, inicie outro terminal e realize a criação dos seguintes comandos:
 
-python -m venv venv
-./venv/Scripts/activate
-pip install requests, faker
+- python -m venv venv
+
+- ./venv/Scripts/activate
+
+- pip install requests, faker
 
 # Executar script de popular o banco
+
 python scripts/populate_database.py
 
 **Dados criados:**
