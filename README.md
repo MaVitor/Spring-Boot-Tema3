@@ -5,7 +5,6 @@ Antes de começar, certifique-se de ter instalado:
 ### Software Necessário
 - **Java 17+** - [Download](https://adoptium.net/)
 - **PostgreSQL 12+** - [Download](https://www.postgresql.org/download/)
-- **Neo4j Desktop** - [Download](https://neo4j.com/deployment-center/?gdb-selfmanaged&community)
 - **Python 3.8+** - [Download](https://www.python.org/downloads/)
 - **Git** - [Download](https://git-scm.com/)
 
@@ -24,7 +23,6 @@ cd petcare/petcare
 
 Realize a criação de um banco de dados chamado petcare pelo PGADMIN. Mantenha o usuario e senha postgres para não necessitar trocar nas configurações.
 
-### Neo4j
 
 # Guia de Configuração do Neo4j AuraDB
 
@@ -117,18 +115,22 @@ spring.neo4j.database=neo4j
 
 #### Windows:
 
+Certifique-se que você se encontra no diretorio correto, e, execute o seguinte comando:
+
 ./mvnw.cmd spring-boot:run
 
 ### 3. Verificar se Subiu
-- **API**: http://localhost:8080
+
 - **Swagger**: http://localhost:8080/swagger-ui.html
 
 ## 📊 Populando o Banco
 
 # Instalar dependências Python
 
+Com o projeto ainda rodando, inicie outro terminal e realize a criação dos seguintes comandos:
+
 python -m venv venv
-cd ./venv/Scripts/activate
+./venv/Scripts/activate
 pip install requests, faker
 
 # Executar script de popular o banco
