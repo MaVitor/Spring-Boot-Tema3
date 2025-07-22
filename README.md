@@ -12,7 +12,7 @@ Antes de começar, certifique-se de ter instalado:
 
 ### 1. Clone o Repositório
 
-- git clone [<url-do-repositorio>](https://github.com/MaVitor/Spring-Boot-Tema3.git)
+- git clone https://github.com/MaVitor/Spring-Boot-Tema3.git
 
 ## 🗄️ Configuração do Banco de Dados
 
